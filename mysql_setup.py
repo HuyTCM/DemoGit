@@ -48,5 +48,5 @@ apt-get -y install mysql-server mysql-client
 		self.command(self.cmd_create_DB)
 
 	def execute(self):
-		self.install()
+		# self.install()
 		self.create_DB()
