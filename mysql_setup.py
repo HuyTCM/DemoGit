@@ -26,7 +26,7 @@ apt-get -y install mysql-server mysql-client
 
 	def install(self):
 		_log(self.__class__.__name__, 'install')
-
+        print('acnv')
 		if _sys_call(self.cmd_install):
 			_print_success(self.__class__.__name__)
 		else:
