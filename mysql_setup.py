@@ -2,7 +2,7 @@ from common import _log, _print_fail, _print_success, _sys_call
 
 class MySQL:
 	def __init__(self):
-		self.DB_HOST = 'localhost'
+		self.DB_HOST = '127.0.0.1'
 		self.DB_ROOT_USER = 'root'
 		self.DB_ROOT_PASSWORD = 'rootp'
 		self.DB_USER = 'asis'
