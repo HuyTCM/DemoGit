@@ -1,5 +1,5 @@
 from common import _log, _print_fail, _print_success, _sys_call
-
+# abcoalw
 class MySQL:
 	def __init__(self):
 		self.DB_HOST = '127.0.0.1/32'
